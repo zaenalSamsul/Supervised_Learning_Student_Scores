@@ -1,13 +1,13 @@
 # Supervised_Learning_Student_Scores
 Dataset ini berisi data tentang jam belajar (Hours) dan skor ujian (Scores) dari 25 siswa. Analisis dilakukan untuk memahami hubungan antara jumlah jam belajar dengan hasil ujian, serta mengevaluasi performa beberapa model regresi untuk memprediksi skor berdasarkan jam belajar.
 
-##Goals
+## Goals
 1. Menentukan hubungan antara jam belajar dengan skor ujian.
 2. Menganalisis distribusi data, termasuk outlier, data duplikat, dan nilai yang hilang.
 3. Melakukan pemodelan regresi untuk memprediksi skor berdasarkan jumlah jam belajar.
 4. Mengevaluasi performa model regresi menggunakan metrik seperti R-squared dan Mean Squared Error (MSE).
 5. Memberikan rekomendasi berdasarkan hasil analisis untuk meningkatkan akurasi prediksi.
-##Insight
+## Insight
 1. Hubungan Jam Belajar dan Skor: Terdapat hubungan linear positif antara jumlah jam belajar dan skor ujian. Semakin banyak jam belajar, semakin tinggi kemungkinan memperoleh skor ujian yang lebih baik.
 2. Distribusi Data:
   - Tidak ada duplikasi data.
@@ -17,7 +17,7 @@ Dataset ini berisi data tentang jam belajar (Hours) dan skor ujian (Scores) dari
   - Linear Regression: Memberikan hasil yang baik dengan hubungan linear sederhana.
   - Decision Tree: Menangkap pola data dengan fleksibilitas tinggi, tetapi cenderung berisiko overfitting pada dataset kecil.
   - Random Forest: Memberikan performa terbaik dengan akurasi tinggi, stabilitas, dan ketahanan terhadap overfitting.
-##Advices
+## Advices
 1. Penggunaan Jam Belajar: Jika ingin memaksimalkan skor ujian, siswa disarankan untuk mengatur jam belajar secara konsisten.
 Pemilihan Model:
   - Gunakan Random Forest Regressor untuk prediksi yang lebih akurat dalam dataset ini.
